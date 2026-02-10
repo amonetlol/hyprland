@@ -1,3 +1,7 @@
 # keybinds padrões
 
+# Configs
 bind = SUPER, slash, exec, [float; center; size 1200 800] code ~/.config/hypr/keybinds.conf #SUPER + /
+
+# Rofi
+bind = SUPER SHIFT, D, exec, rofi -show window
