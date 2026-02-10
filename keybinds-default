@@ -1,0 +1,3 @@
+# keybinds padrões
+
+bind = SUPER, slash, exec, [float; center; size 1200 800] code ~/.config/hypr/keybinds.conf #SUPER + /
