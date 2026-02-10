@@ -4,4 +4,12 @@
 bind = SUPER, slash, exec, [float; center; size 1200 800] code ~/.config/hypr/keybinds.conf #SUPER + /
 
 # Rofi
+bind = SUPER, D, exec, rofi -show drun
 bind = SUPER SHIFT, D, exec, rofi -show window
+bind = SUPER, X, exec, powermenu
+
+# Func
+bind = SUPER, F10, exec, wallpaper-selector
+bind = SUPER, F11, exec, waybar-theme
+bind = SUPER, F12, exec, waybar
+
