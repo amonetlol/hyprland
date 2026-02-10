@@ -2,6 +2,7 @@
 
 # Configs
 bind = SUPER, slash, exec, [float; center; size 1200 800] code ~/.config/hypr/keybinds.conf #SUPER + /
+bind = SUPER, semicolon, exec, [float; center; size 1200 800] foot -e nvim ~/.config/hypr   #SUPER + ;
 
 # Rofi
 bind = SUPER, D, exec, rofi -show drun
