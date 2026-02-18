@@ -7,6 +7,11 @@ bind = SUPER, period, exec, [float; center; size 1200 800] foot -e nvim ~/.confi
 #bind = SUPER, comma, exec, [float; center; size 1200 800] VAZIOOOOOOO                       #SUPER + ,
 #bind = SUPER, backslash, exec, [float; center; size 1200 800] VAZIOOOOOOO                   #SUPER + \
 
+# Window
+bind = $mainMod, F, fullscreen, 1
+bind = $mainMod SHIFT, F, fullscreen, 0
+
+
 
 # Rofi
 bind = SUPER, D, exec, rofi -show drun
