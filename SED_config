@@ -1,0 +1,4 @@
+sed -i 's/^monitor = .*/monitor = , preferred, auto, 1/' ~/.config/hypr/hyprland.conf
+
+sed -i 's/kb_layout = se/kb_layout = br/' ~/.config/hypr/hyprland.conf
+sed -i 's/kb_variant = se/kb_variant = abnt2/' ~/.config/hypr/hyprland.conf
