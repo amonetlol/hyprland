@@ -11,7 +11,11 @@ bind = SUPER, period, exec, [float; center; size 1200 800] foot -e nvim ~/.confi
 bind = $mainMod, F, fullscreen, 1
 bind = $mainMod SHIFT, F, fullscreen, 0
 
+bind = $mod, INSERT, exec, ~/.config/hypr/scripts/togglelayout.sh
 
+# show/hide waybar
+#bind = $mainMod, B, exec, killall -SIGUSR1 waybar
+#bind = $mainMod, B, exec, killall -SIGUSR1 waybar
 
 # Rofi
 bind = SUPER, D, exec, rofi -show drun
